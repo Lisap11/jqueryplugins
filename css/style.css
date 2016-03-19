@@ -1,0 +1,54 @@
+header{
+	padding: 20px;
+	height: 49px;
+}
+
+h1{
+	float: left;
+	font-size: 24px;
+	color: gray;
+	font-weight: bold;
+
+}
+
+/*nav{
+	top: 50px;
+	float: left;
+	display: block; 
+}
+*/
+/*HOW DO I REMOVE THE MARGIN ON THE NAV ELEMENTS*/
+
+/*nav li{
+	padding: 5px;
+	color: gray*/
+}*/
+
+a li{
+	padding: 5px;
+	color: gray
+}
+
+footer{
+	text-align: center;
+}
+footer ul a{
+	padding: 10px;
+}
+
+.section1{
+	height: 500px;
+	width: 1200px;
+}
+
+@media screen and (max-width: 768px){
+  #hamburger{
+    display: block;
+    float: right;
+  }
+
+/*TRYING TO CHANGE THE SIZE OF THE BACKGROUNG IMAGE IN MY SECTION SO THAT IT GETS SMALLER IN MOBILE*/
+  section{
+  	/*width: 1200px;*/
+  	background-image: auto;
+  }
